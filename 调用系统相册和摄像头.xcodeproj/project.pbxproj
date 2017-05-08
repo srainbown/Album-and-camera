@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		2E54DF021E51787A00474877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF011E51787A00474877 /* main.m */; };
 		2E54DF051E51787A00474877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF041E51787A00474877 /* AppDelegate.m */; };
-		2E54DF081E51787A00474877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF071E51787A00474877 /* ViewController.m */; };
-		2E54DF0B1E51787A00474877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E54DF091E51787A00474877 /* Main.storyboard */; };
 		2E54DF0D1E51787A00474877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E54DF0C1E51787A00474877 /* Assets.xcassets */; };
 		2E54DF101E51787A00474877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E54DF0E1E51787A00474877 /* LaunchScreen.storyboard */; };
 		2E54DF1B1E51787A00474877 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF1A1E51787A00474877 /* __________Tests.m */; };
 		2E54DF261E51787A00474877 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF251E51787A00474877 /* __________UITests.m */; };
+		2E54DF351E5178CF00474877 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54DF341E5178CF00474877 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2B85BA1E518E1C004A9053 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2E54DEFD1E51787A00474877 /* 调用系统相册和摄像头.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "调用系统相册和摄像头.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E54DF011E51787A00474877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E54DF031E51787A00474877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E54DF041E51787A00474877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E54DF061E51787A00474877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E54DF071E51787A00474877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E54DF0A1E51787A00474877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E54DF0C1E51787A00474877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E54DF0F1E51787A00474877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E54DF111E51787A00474877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,8 @@
 		2E54DF211E51787A00474877 /* 调用系统相册和摄像头UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "调用系统相册和摄像头UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E54DF251E51787A00474877 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
 		2E54DF271E51787A00474877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E54DF331E5178CF00474877 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2E54DF341E5178CF00474877 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +102,9 @@
 			children = (
 				2E54DF031E51787A00474877 /* AppDelegate.h */,
 				2E54DF041E51787A00474877 /* AppDelegate.m */,
-				2E54DF061E51787A00474877 /* ViewController.h */,
-				2E54DF071E51787A00474877 /* ViewController.m */,
-				2E54DF091E51787A00474877 /* Main.storyboard */,
+				2E54DF331E5178CF00474877 /* MainViewController.h */,
+				2E54DF341E5178CF00474877 /* MainViewController.m */,
+				2E2B85BA1E518E1C004A9053 /* PrefixHeader.pch */,
 				2E54DF0C1E51787A00474877 /* Assets.xcassets */,
 				2E54DF0E1E51787A00474877 /* LaunchScreen.storyboard */,
 				2E54DF111E51787A00474877 /* Info.plist */,
@@ -207,6 +206,7 @@
 				TargetAttributes = {
 					2E54DEFC1E51787A00474877 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X25NZXZ393;
 						ProvisioningStyle = Automatic;
 					};
 					2E54DF151E51787A00474877 = {
@@ -248,7 +248,6 @@
 			files = (
 				2E54DF101E51787A00474877 /* LaunchScreen.storyboard in Resources */,
 				2E54DF0D1E51787A00474877 /* Assets.xcassets in Resources */,
-				2E54DF0B1E51787A00474877 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E54DF081E51787A00474877 /* ViewController.m in Sources */,
 				2E54DF051E51787A00474877 /* AppDelegate.m in Sources */,
+				2E54DF351E5178CF00474877 /* MainViewController.m in Sources */,
 				2E54DF021E51787A00474877 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E54DF091E51787A00474877 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E54DF0A1E51787A00474877 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E54DF0E1E51787A00474877 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,9 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X25NZXZ393;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dangbei/Desktop/调用系统相册和摄像头/调用系统相册和摄像头/PrefixHeader.pch";
 				INFOPLIST_FILE = "调用系统相册和摄像头/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X25NZXZ393;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dangbei/Desktop/调用系统相册和摄像头/调用系统相册和摄像头/PrefixHeader.pch";
 				INFOPLIST_FILE = "调用系统相册和摄像头/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +502,7 @@
 				2E54DF2C1E51787A00474877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E54DF2D1E51787A00474877 /* Build configuration list for PBXNativeTarget "调用系统相册和摄像头Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +511,7 @@
 				2E54DF2F1E51787A00474877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E54DF301E51787A00474877 /* Build configuration list for PBXNativeTarget "调用系统相册和摄像头UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +520,7 @@
 				2E54DF321E51787A00474877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

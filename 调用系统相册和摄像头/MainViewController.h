@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  调用系统相册和摄像头
 //
 //  Created by 李自杨 on 17/2/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-
